@@ -1,16 +1,17 @@
-# This is a sample Python script.
+import sys
+import importlib
+from TK_1 import list_of_values
+from TK_2 import cortege
+from TK_3 import divide_by_average
+from TK_4 import multiply_by_average
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def main():
+    TK_5 = importlib.import_module("TK_5")
+    count_values = int(input('Get count data: '))
+    list_data = input_values_list(count_values)
+    print('list: ' + str(list_data))
+    print('Min max values: ' + str(cortege(list_of_values)))
+    print('Divide by average elements: ' + str(divide_by_average(list_of_data)))
+    print('Myltiply by average elements: ' + str(multiply_by_average(list_of_data)))
+    print('List of sqrt elements: ' + str(TK_5.sqrt_list(list_of_data)))
+    return 0
