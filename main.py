@@ -8,8 +8,8 @@ from TK_4 import multiply_by_average
 def main():
     TK_5 = importlib.import_module("TK_5")
     count_values = int(input('Get count data: '))
-    list_data = input_values_list(count_values)
-    print('list: ' + str(list_data))
+    list_of_data = list_of_values(count_values)
+    print('list: ' + str(list_of_data))
     print('Min max values: ' + str(cortege(list_of_values)))
     print('Divide by average elements: ' + str(divide_by_average(list_of_data)))
     print('Myltiply by average elements: ' + str(multiply_by_average(list_of_data)))
