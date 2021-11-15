@@ -7,11 +7,14 @@ from TK_4 import multiply_by_average
 
 def main():
     TK_5 = importlib.import_module("TK-5")
-    count_values = int(input('Get count data: '))
-    list_of_data = list_of_values(count_values)
+    count = int(input('Get count data: '))
+    list_of_data = list_of_values(count)
     print('list: ' + str(list_of_data))
     print('Min max values: ' + str(cortege(list_of_data)))
     print('Divide by average elements: ' + str(divide_by_average(list_of_data)))
     print('Multiply by average elements: ' + str(multiply_by_average(list_of_data)))
     print('List of sqrt elements: ' + str(TK_5.sqrt_list(list_of_data)))
     return 0
+
+if __name__=='__main__':
+    sys.exit(main())
