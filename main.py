@@ -10,7 +10,7 @@ def main():
     count_values = int(input('Get count data: '))
     list_of_data = list_of_values(count_values)
     print('list: ' + str(list_of_data))
-    print('Min max values: ' + str(cortege(list_of_values)))
+    print('Min max values: ' + str(cortege(list_of_data)))
     print('Divide by average elements: ' + str(divide_by_average(list_of_data)))
     print('Multiply by average elements: ' + str(multiply_by_average(list_of_data)))
     print('List of sqrt elements: ' + str(TK_5.sqrt_list(list_of_data)))
