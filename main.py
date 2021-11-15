@@ -12,6 +12,6 @@ def main():
     print('list: ' + str(list_of_data))
     print('Min max values: ' + str(cortege(list_of_values)))
     print('Divide by average elements: ' + str(divide_by_average(list_of_data)))
-    print('Myltiply by average elements: ' + str(multiply_by_average(list_of_data)))
+    print('Multiply by average elements: ' + str(multiply_by_average(list_of_data)))
     print('List of sqrt elements: ' + str(TK_5.sqrt_list(list_of_data)))
     return 0
