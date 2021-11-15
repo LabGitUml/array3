@@ -6,7 +6,7 @@ from TK_3 import divide_by_average
 from TK_4 import multiply_by_average
 
 def main():
-    TK_5 = importlib.import_module("TK_5")
+    TK-5 = importlib.import_module("TK-5")
     count_values = int(input('Get count data: '))
     list_of_data = list_of_values(count_values)
     print('list: ' + str(list_of_data))
